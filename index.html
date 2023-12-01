@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+    <title>Projekti 2a</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>
+        <img src="https://upload.wikimedia.org/wikipedia/fi/7/7a/Finnkino-logo.png" style="height: 300px; float: left; padding-left: 50px;"> 
+            PROJEKTI 2a 
+        <img src="https://upload.wikimedia.org/wikipedia/fi/7/7a/Finnkino-logo.png" style="height: 300px; float: right; padding-right: 50px;">
+    </h1>
+
+    <h2>Nappeja painamalla saat lisätietoa elokuvista (15kpl),<br> jotka ovat nähtävissä Finnkinossa tällä hetkellä!</h2>
+    
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-4" id="elokuvat">
+                <input type="button" class="btn btn-warning btn-lg" name="fetch" id="fetch" value="Elokuvat" onclick="lataaLeffat()">
+            </div>
+            <div class= "col-sm-4" id="kesto">
+                <input type="button" class="btn btn-warning btn-lg" name="fetch" id="fetch" value="Elokuvan kesto" onclick="lataaKestot()">
+            </div>
+            <div class="col-sm-4" id="sijainti">
+                <input type="button" class="btn btn-warning btn-lg" name="fetch" id="fetch" value="Elokuvan sijainti" onclick="lataaSijainti()">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>

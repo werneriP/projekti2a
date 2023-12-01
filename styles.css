@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(11111111111deg, #b396af, #eea046);
+}
+
+h1 {
+    text-align: center;
+    font-size: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    padding-bottom: 150px;
+}
+
+input {
+    position: sticky;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(8, 9, 10);
+    border-style: solid;
+    height: 100px;
+    width: 500px;
+
+}
